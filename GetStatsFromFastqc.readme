@@ -1,0 +1,7 @@
+Usage: ./GetStatsFromFastqc.sh samples projectname
+
+Where "samples" is a simple text file listing all the processed files in the project.  Be sure to include the full path, do not include "_fastqc" suffix (e.g. mydir/sample01)
+
+projectname is a string for the project name
+
+The script will output a tab delimited text file named "projectname.txt" with some stats grabbed from fastqc output
